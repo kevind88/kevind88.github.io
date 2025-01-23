@@ -1,0 +1,41 @@
+/* Try to improve this stylesheet, when time permits*/
+h1{
+    font-size: 2.5rem;
+    color: white;
+    text-align:center;
+    background-color: #3981ee;
+}
+
+h2, footer{
+    text-align:center;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+
+#aboutme,#contact,#gallery{
+    margin:20px;
+    padding:20px
+}
+/* Ensure the images always fit to the max width allowed by the view port*/
+/* Credit to Net Ninja HTML CSS videos */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/*Ensures banner image display occupies the whole block, and remains cenetered*/
+/* Credit to Net Ninja HTML CSS videos */
+.banner img{
+    display:block;
+    margin: 0 auto;
+}
+
+#images img{
+    border: 2px solid #3981ee;
+    margin:20px;
+    padding:20px;
+}
+
